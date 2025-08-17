@@ -16,7 +16,7 @@ from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 st.image("ass.image.jpeg", width=200)
 
 # Import data at the global level
-data = pd.read_excel("C:/Users/MARILYN/OneDrive/Desktop/GROUP_C ML ASSIGNMENT/country.xlsx")
+data = pd.read_excel("country.xlsx")
 
 # selecting the attributes....remove the attribute call country
 select_att = data[
@@ -361,3 +361,4 @@ st.sidebar.write(
 # show the page
 
 pages[select_page]()
+
