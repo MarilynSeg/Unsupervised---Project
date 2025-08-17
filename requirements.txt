@@ -1,3 +1,10 @@
 streamlit
 pandas
 openpyxl
+numpy
+scikit-learn
+openpyxl
+matplotlib
+seaborn
+joblib
+gensim
