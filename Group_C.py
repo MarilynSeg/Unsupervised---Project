@@ -13,7 +13,7 @@ from scipy.spatial.distance import pdist
 from scipy.cluster.hierarchy import dendrogram, linkage, fcluster
 
 # Inserting image
-st.image("C:/Users/MARILYN/OneDrive/Pictures/ass.image.jpeg",width=200)
+st.image("ass.image.jpeg", width=200)
 
 # Import data at the global level
 data = pd.read_excel("C:/Users/MARILYN/OneDrive/Desktop/GROUP_C ML ASSIGNMENT/country.xlsx")
@@ -359,4 +359,5 @@ st.sidebar.write(
     'The growing urgency to reduce carbon emissions and their increasingly irreversible effects on global warming has made the transition to renewable energies even more necessary,with regard to electricity generation and the overall energy consumption')
 
 # show the page
+
 pages[select_page]()
